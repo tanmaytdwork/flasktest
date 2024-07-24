@@ -10,5 +10,5 @@ def get_data():
     return{"data":"this is all the data"}
 
 @app.get("/")
-def get_data():
+def get_homepage():
     return{"data":"this is home page"}
